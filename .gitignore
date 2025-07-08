@@ -1,7 +1,10 @@
 # Specifies files to ignore in Git repositories
 
 # Node.js
-node_modules/
+node_modules
+bower_components
+
+*.sublime*
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
